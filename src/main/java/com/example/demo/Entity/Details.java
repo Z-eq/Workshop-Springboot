@@ -20,7 +20,7 @@ public class Details {
     @Column(nullable = false)
     private LocalDate birthDate;
 
-    public Details() {
+    public Details(String s) {
     }
 
     public Details(int detailsId, String email, String name, LocalDate birthDate) {
