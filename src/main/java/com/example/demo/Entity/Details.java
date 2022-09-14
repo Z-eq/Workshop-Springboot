@@ -21,6 +21,10 @@ public class Details {
     private LocalDate birthDate;
 
     public Details(String s) {
+
+    }
+
+    public Details() {
     }
 
     public Details(int detailsId, String email, String name, LocalDate birthDate) {
